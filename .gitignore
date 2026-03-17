@@ -1,0 +1,29 @@
+# Yedek dosyalar
+*.backup.html
+*.mojibake-backup.html
+*.pre-final-backup.html
+*.encoding-backup.html
+
+# Medya dosyalari (buyuk dosyalar)
+*.mp4
+*.mp4.mp4
+*.xlsx
+*.pdf
+*.docx
+*.ttf
+*.otf
+
+# Gecici / kisisel dosyalar
+~$*
+.vs/
+.js
+._*
+WhatsApp*
+pano-yedek-*.json
+
+# Eski pano
+Yeni_Pano.html
+HIZLI_TEST.txt
+
+# Portable klasor
+okul-panosu-portable/

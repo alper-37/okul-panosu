@@ -1,0 +1,39 @@
+KIOSK KURULUM NOTLARI (Windows)
+
+1) HIZLI BASLATMA
+- PANO_KIOSK_BASLAT.bat dosyasina cift tiklayin.
+- Pano tam ekran kiosk modunda acilir.
+- Yeni_Pano icin onerilen: YENI_PANO_HTTP_KIOSK_BASLAT.bat
+  (file:// kisitlarini asmak icin yerel HTTP uzerinden acilir)
+
+2) KIOSK CIKIS
+- ALT+F4 ile cikis yapin.
+- Gerekirse PANO_KIOSK_DURDUR.bat calistirin.
+
+3) OTOMATIK ACILIS (Windows baslangic)
+- Tek tik cozum: PANO_BASLANGICA_EKLE.bat calistirin.
+- Geri alma: PANO_BASLANGICTAN_KALDIR.bat calistirin.
+- Alternatif manuel yol: Win + R -> shell:startup -> PANO_KIOSK_BASLAT.bat kisayolu.
+
+3.1) OTOMATIK ACILIS (Gorev Zamanlayici - daha stabil)
+- Ekle: PANO_GOREV_ZAMANLAYICI_EKLE.bat
+- Kaldir: PANO_GOREV_ZAMANLAYICI_KALDIR.bat
+- Not: Bu yontem acilis davranisinda genelde daha stabildir.
+
+4) ONERILEN AYARLAR
+- Windows ekran olcegi: %100 veya %125
+- Tarayici zoom: %100 (Ctrl + 0)
+- Tam ekran: F11 (kiosk disi acilislarda)
+
+5) DOGRULAMA
+- HIZLI_TEST.txt ile kontrol edin.
+- Detayli kayit icin PANO_EKRAN_UYUM_TEST_LISTESI.md kullanin.
+
+6) DOSYALAR
+- PANO_KIOSK_BASLAT.bat (kiosk acilis)
+- PANO_KIOSK_DURDUR.bat (kiosk kapatma)
+- YENI_PANO_HTTP_KIOSK_BASLAT.bat (Yeni_Pano icin HTTP kiosk acilis)
+- PANO_BASLANGICA_EKLE.bat (otomatik baslangica ekle)
+- PANO_BASLANGICTAN_KALDIR.bat (otomatik baslangictan kaldir)
+- PANO_GOREV_ZAMANLAYICI_EKLE.bat (task scheduler ile otomatik acilis)
+- PANO_GOREV_ZAMANLAYICI_KALDIR.bat (task scheduler kaydini sil)
